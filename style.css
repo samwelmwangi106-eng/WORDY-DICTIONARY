@@ -1,0 +1,59 @@
+
+body {
+  font-family: Arial;
+  background: #0b1d2a;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background: #00aaff;
+  color: rgb(27, 26, 26);
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #e7ebec;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* RESULT CARD */
+.result-card {
+  background: #132c3a;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.result-card button {
+  margin-top: 10px;
+}
+
+/* SAVED WORDS */
+#savedWords {
+  list-style: none;
+  margin-top: 20px;
+}
+
+#savedWords li {
+  background: #132c3a;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
